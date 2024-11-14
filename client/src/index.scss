@@ -1,0 +1,26 @@
+.actions{
+    button{
+        border-radius: .3rem;
+        outline: none;
+        padding: 0.5rem 1.5rem;
+        border: 1px solid grey;
+        cursor: pointer;
+    }
+    .edit{
+        background-color: lightblue;
+        &:hover{
+            background-color: rgb(151, 209, 228);
+        }
+    }
+    .delete{
+        background-color: lightcoral;
+        &:hover{
+            background-color: rgb(238, 107, 107);
+        }
+        margin-left: 1rem;
+    }
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
