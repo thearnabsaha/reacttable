@@ -6,7 +6,7 @@ import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-quartz.css";
 
 const Table = () => {
-    const { data: rowData } = useContext(DataContext);
+    const {  rowData } = useContext(DataContext);
 
     const [colDefs] = useState([
         { field: "id", headerName: "ID" },
